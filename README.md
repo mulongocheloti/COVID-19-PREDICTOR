@@ -36,7 +36,7 @@ The main files are <b><a href='https://github.com/mulongocheloti/COVID-19-PREDIC
     <br>
     <img src='https://github.com/mulongocheloti/COVID-19-PREDICTOR/blob/snaps/deploy1.PNG'><br>
     <br>
-    Now users can enter their symptoms as parameters and see if they are positive or not.<br>
+    Now patients can enter their symptoms as parameters and see if they are positive or not.<br>
     <br>
     <img src='https://github.com/mulongocheloti/COVID-19-PREDICTOR/blob/snaps/deploy2.PNG'>
     <br>
