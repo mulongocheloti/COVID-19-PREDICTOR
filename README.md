@@ -1,5 +1,5 @@
 # COVID-19-PREDICTOR
-
+The main files are https://github.com/mulongocheloti/COVID-19-PREDICTOR/blob/main/Covid-19_Prediction_Model.ipynb and 
 PROJECT STEPS
 1.  LOAD THE DATASET
 2.  IMPORT NECESSARY LIBRARIES
