@@ -6,20 +6,22 @@
 DATASET: https://github.com/nshomron/covidpred/tree/master/data
 
 The main files are <b><a href='https://github.com/mulongocheloti/COVID-19-PREDICTOR/blob/main/Covid-19_Prediction_Model.ipynb'>.ipynb file</a>, <a href='https://github.com/mulongocheloti/COVID-19-PREDICTOR/blob/main/covid_detector.joblib'>joblib pipeline file</a></b> and <b><a href='https://github.com/mulongocheloti/COVID-19-PREDICTOR/blob/main/app.py'>streamlit application file</a></b>
+
 ---
 <b>PROJECT STEPS</b>
 1.  <b>SET UP</b><br>
     Data Download: Downloaded the file and unzip then move it into your working directory<br>
     I then created an environment named <b>covid</b> and installed jupyter notebook.<br>
     Launched Jupyter Notebook and installed <b>pandas, numpy</b> and <b>matplotlib</b>
+	<br>
 2.  <b>DATA PREPOCESSING</b><br>
     Using pandas load the dataset, do data type conversion, handle null/missing values, do dimension reduction, visualize the data.<br>
     Frequency encoding and split <b>features</b> from the <b>target</b><br>
-	![Data Preprocessing](Snaps/data preprocessing.PNG)<br>
-    
+	![Data Preprocessing](Snaps/data-preprocessing.PNG)<br>
+    <br>
 3.  <b>MODEL SELECTION</b><br>
     Using <b>K-Fold Cross validation</b> determine the best algorithm between <b>LinearRegression</b> and <B>RandomForestClassifier</b>.<br>
-	![Best Algo](Snaps/choosing best algorithm.PNG)<br>
+	![Best Algo](Snaps/choosing-best-algorithm.PNG)<br>
 	<br>
     Selected the <b>RandomForestClassifier()</b>.<br>
 4.  <b>MODELING</b><br>
@@ -31,7 +33,7 @@ The main files are <b><a href='https://github.com/mulongocheloti/COVID-19-PREDIC
 7.  <b>CREATE A PIPELINE USING JOBLIB</b><br>
     Install joblib and streamlit using !pip<br>
     Import joblib and save the model as <b>covid_detector.joblib</b><br>
-	![Saving the model](Snaps/save the model.PNG)<br>
+	![Saving the model](Snaps/save-the-model.PNG)<br>
 	<br>
 8.  <b>STREAMLIT APPLICATION CODE</b><br>
     Now outside jupyter notebook, using streamlit code a .py file that will create a web page used for model deployment locally and save it as <b>app.py</b><br>
@@ -40,11 +42,11 @@ The main files are <b><a href='https://github.com/mulongocheloti/COVID-19-PREDIC
 	<br>
 9.  <b>MODEL DEPLOYMENT</b><br>
     Open cmd from your working directory and type as shown below<br>
-    ![Model Deployment](Snaps/cmd run streamlit.PNG)
+    ![Model Deployment](Snaps/cmd-run-streamlit.PNG)
 	<br>
     <br>
     This opens your browser and the web page is displayed<br>
     <br>
-    ![LOCAL DEPLOYMENT](Snaps/local deployment using streamlit.mp4)
+    ![LOCAL DEPLOYMENT](Snaps/local-deployment-using-streamlit.mp4)
 	<br>
     # THANK YOU
