@@ -30,23 +30,21 @@ The main files are <b><a href='https://github.com/mulongocheloti/COVID-19-PREDIC
     Compare the predicted values to the actual values using <b>mean squared error</b>.<br>
 	![Modeling](Snaps/modeling.PNG)<br>
 	<br>
-7.  <b>CREATE A PIPELINE USING JOBLIB</b><br>
+5.  <b>CREATE A PIPELINE USING JOBLIB</b><br>
     Install joblib and streamlit using !pip<br>
     Import joblib and save the model as <b>covid_detector.joblib</b><br>
 	![Saving the model](Snaps/save-the-model.PNG)<br>
 	<br>
-8.  <b>STREAMLIT APPLICATION CODE</b><br>
+6.  <b>STREAMLIT APPLICATION CODE</b><br>
     Now outside jupyter notebook, using streamlit code a .py file that will create a web page used for model deployment locally and save it as <b>app.py</b><br>
 	![Streamlit code](Snaps/app1.PNG)<br>
 	![Streamlit code](Snaps/app2.PNG)<br>
 	<br>
-9.  <b>MODEL DEPLOYMENT</b><br>
+7.  <b>MODEL DEPLOYMENT</b><br>
     Open cmd from your working directory and type as shown below<br>
     ![Model Deployment](Snaps/cmd-run-streamlit.PNG)
 	<br>
     <br>
     This opens your browser and the web page is displayed<br>
     <br>
-   https://github.com/mulongocheloti/COVID-19-PREDICTOR/blob/main/Snaps/local-deploymemt-using-streamlit.mp4
-	<br>
-    # THANK YOU
+https://github.com/mulongocheloti/COVID-19-PREDICTOR/blob/main/Snaps/local-deploymemt-using-streamlit.mp4
