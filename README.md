@@ -19,7 +19,7 @@ The main files are <b><a href='https://github.com/mulongocheloti/COVID-19-PREDIC
     
 3.  <b>MODEL SELECTION</b><br>
     Using <b>K-Fold Cross validation</b> determine the best algorithm between <b>LinearRegression</b> and <B>RandomForestClassifier</b>.<br>
-	![Best Algo](Snaps/choosing best algorithm.PNG)<br>
+	![Best Algo]('Snaps/choosing best algorithm.PNG')<br>
 	<br>
     Selected the <b>RandomForestClassifier()</b>.<br>
 4.  <b>MODELING</b><br>
