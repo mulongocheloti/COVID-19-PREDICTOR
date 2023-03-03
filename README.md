@@ -46,6 +46,5 @@ The main files are <b><a href='https://github.com/mulongocheloti/COVID-19-PREDIC
 	<br>
     <br>
     This opens your browser and the web page is displayed<br>
-    <br>
 
 https://github.com/mulongocheloti/COVID-19-PREDICTOR/blob/main/local-deploymemt-using-streamlit.mp4
